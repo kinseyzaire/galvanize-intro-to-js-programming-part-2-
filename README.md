@@ -24,7 +24,7 @@ Let's use Node and create two of the three reference types found in JavaScript:
 
 ## Array `[]`
 
-In this section, we're going to learn how to perform CRUD (create, read, update, delete) operations with arrays.
+In this section, we're going to review how to perform CRUD (create, read, update, delete) operations with arrays.
 
 ### Create elements
 
