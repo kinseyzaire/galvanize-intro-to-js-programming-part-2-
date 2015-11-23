@@ -12,10 +12,16 @@ Students will able to...
 - 8 of 9: know how to write a deeply nested array and object
 - 9 of 9: know how to read a deeply nested array and object
 
+## Set Up
+
+```
+Fork and clone
+```
+
 
 # 1 of 9: Creating values for each reference type
 
-During [part 1](js-part-1.md), we learned about one of two types of values in JavaScript: primitive types. Now, we're going to shift our focus to the other types of values: reference types.
+Last week we learned about two types of values in JavaScript: primitive types and reference types. Today, we're going to go deeper into reference types.
 
 Let's use Node and create two of the three reference types found in JavaScript:
 - `Array`
@@ -548,6 +554,8 @@ For this reason, you need to gain comfort navigating and finding data anywhere i
 ***
 Exercise: Take this deeply nested reference type and write the code to find the following values:
 
+# STEP ONE
+
 1. The email of user 1.
 2. The title of user 5.
 3. The user id of the first user in the user's array.
@@ -600,6 +608,39 @@ Exercise: Take this deeply nested reference type and write the code to find the 
   ]
 }
 ```
+
+# STEP TWO
+
+Ok, nice work. However, only being able to get information about one or two specific users isn't super helpful in the long term. What if we had a huge database of users and needed to access information about any one of them at any given time? Let's refactor our code into useful functions that can be used over and over again to find information on any given user.
+
+Create a file called `solution.js`. Refactor your code into the following three functions and invoke them in a console.log as shown below:
+
+```
+function getUserEmail(userId){
+  // your code
+}
+
+function getUserTitle(userId){
+  // your code
+}
+
+function getUserIds(users){
+
+}
+
+EXAMPLE OUTPUT:
+
+console.log(getUserEmail(5))
+=> 'garret@hipchat.com'
+
+console.log(getUserTitle(3)
+=> 'Designer'
+
+console.log(getUserIds(users))
+=> [1, 3, 5]
+```
+
+When you are finished, submit a pull request with your solution.
 ***
 
 # Conclusion
